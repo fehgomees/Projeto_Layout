@@ -1,0 +1,127 @@
+body {
+    background-color: #fcf9f5;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho {
+    background-image: url(imagens/capa\ 3.png);
+    height: 700px;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.div-cabecalho {
+    margin: 100px 0 auto 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 260px;
+}
+
+.div-cabecalho h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 30px yellow;
+    margin-left: 55px;
+    color: #4D671D;    
+}
+
+.div-cabecalho a{
+    background-color: #d2fc3a;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.div-cabecalho a:hover { 
+    background-color: rgb(255, 253, 108);
+    color: rgb(109, 3, 109);
+}
+
+.cabecalho nav ul {
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+ .cabecalho nav a {
+    color: #592C04; 
+    background-color:#dbfcc0;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ .cabecalho nav a:hover {
+    background-color:moccasin;
+    color: black;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.texto {
+    text-align: center;
+    text-align: center;
+    background-color: #d3d83c;
+    color: rgb(21, 92, 4);
+    margin-top: 40px; 
+}
+
+img {
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 100px;
+    height: 100px;
+    width: 90px;
+    margin-bottom: -16px;
+    overflow: hidden;
+    
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+
+.descricao {
+    vertical-align: middle;
+    margin: 5px;
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+.footer {
+    text-align: center;
+    color: #fbfdfd;
+    
+     
+}
+
+.footer-caixa {
+    background-color: #72A624;
+    padding: 3px;
+
+}
+
+
